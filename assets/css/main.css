@@ -1,0 +1,201 @@
+/**
+ * Google Clone
+ * 
+ * Clone of Google's homepage as part of the Thinkful FEWD Curriculum
+ * 
+ * @package   GoogleClone
+ * @author    Trevor Nowalk
+ * @license   http://opensource.org/licenses/AFL-3.0 Academic Free License (AFL 3.0)
+ * @since   Version 1.0
+ */
+
+body: {
+  font-family: arial,sans-serif;
+}
+
+/** Header Styles **/
+header {
+  float: right;
+  margin: 14px 27px;
+  font-family: arial,sans-serif;
+}
+
+header ul li {
+  float: left;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #404040;
+  font: 12px/27px Arial,sans-serif;
+  padding: 5px 10px 2px 4px;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
+}
+
+header > div {
+  float: left;
+}
+
+header div#apps {
+  width: 30px;
+  height: 30px;
+  margin-right: 13px
+}
+
+header div#apps a {
+  display: inline-block;
+  background-image: url(../img/v1_53a1fa6a.png);
+  background-position: -395px -218px;
+  background-size: 495px 307px;
+  opacity: .55;
+  width: 30px;
+  height: 30px;;
+}
+
+header div#notifications {
+  background-image: url(../img/v1_53a1fa6a.png);
+  background-position: 0 0;
+  background-size: 480px 310px;
+  width: 30px;
+  height: 30px;
+  opacity: .55;
+  margin-right: 11px;
+}
+
+header div#share {
+  position: relative;
+}
+
+header div#share a {
+  display: inline-block;
+  background: rgba(0,0,0,.04);
+  margin-right: 13px;
+  color: #404040;
+  cursor: default;
+  text-decoration: none;
+  height: 27px;
+  width: 54px;
+  text-align: center;
+  line-height: 27px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+header div#share a:after {
+  border-left: 4px solid rgba(0,0,0,.04);
+  border-top: 4px solid transparent;
+  bottom: 0;
+  content: '';
+  position: absolute;
+  right: 10px;
+  height: 0;
+  width: 0;
+}
+
+header div#avatar a {
+  display: inline-block;
+  background-image: url(../img/photo.jpg);
+  background-size: 27px 27px;
+  width: 27px;
+  height: 27px;
+}
+
+/** Content Styles **/
+div#content {
+  min-width: 980px;
+  margin: auto;
+  text-align: center;
+}
+
+div#logo {
+  text-align: center;
+}
+
+div#logo img {
+  margin-top: 115px;
+  width: 242px;
+  height: 85px;
+}
+
+input#searchBar {
+  margin-top: 18px;
+  width: 510px;
+  height: 23px;
+  border: 1px solid black;
+  border-color: rgba(0,0,0,.25);
+  background: url(../img/mic.gif) no-repeat right;
+  background-position: 493px 5px;
+  background-size: 12px 17px;
+  opacity: 0.6;
+}
+
+div#buttons {
+}
+
+div#buttons button {
+  background-color: #F5F5F5;
+  background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #444444 !important;
+  font: bold 10px/24px Arial,sans-serif !important;
+  margin: 14px 6px 2px 4px;
+  padding: 0 7px;
+  -moz-user-select: none;
+  border-radius: 1px 1px 1px 1px;
+  cursor: default !important;
+  font-weight: bold;
+}
+
+/** Footer Styles **/
+
+footer {
+  min-width: 980px;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 36px;
+  border-top: 1px solid #e4e4e4;
+  background: #f2f2f2;
+  z-index: 100;
+}
+
+footer ul {
+  margin: 0 14px;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  line-height: 33px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.pullRight {
+  float: right;
+}
+
+.pullLeft {
+  float: left;
+}
+
+footer li {
+  float: left;
+  color: #666666;
+  margin: 2px 13px 0 14px;
+}
+
+.clear {
+  clear: both;
+}
+
+.redHighlight {
+  color: #b14436;
+}
